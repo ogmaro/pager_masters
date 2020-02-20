@@ -1,0 +1,294 @@
+/* CSS Variables */
+body {
+  margin: 0;
+  line-height: 1.4;
+  font-family: 'Bai Jamjuree', sans-serif;
+  font-weight: 400;
+  Font size: 18px;
+  text-align: center;
+}
+
+#top {
+  background: url(images/bg-header-desktop.png);
+  background-size: cover;
+}
+
+.logo {
+  padding-top: 75px;
+}
+
+.history h1 {
+  color: black;
+  font-size: 5rem;
+  margin-bottom: 0;
+}
+
+.history p {
+  color: hsl(210, 10%, 33%);
+  padding-bottom: 50px;
+  font-size: 2rem;
+}
+
+.history a {
+  margin-left: 25px;
+}
+
+.history ul {
+  list-style-type: none;
+  display: flex;
+  margin-left: 700px;
+}
+
+/* <!-- Second Middle Section --> */
+.tracker h1 {
+  margin-top: 150px;
+  color: black;
+  font-size: 2rem;
+}
+
+.tracker p {
+  color: hsl(210, 10%, 33%);
+  padding-bottom: 50px;
+}
+.tracker ul{
+  list-style-type: none;
+  display: flex;
+  margin-left: 700px;
+}
+.tracker a{
+  margin-left:  25px;
+}
+
+.img-text {
+  display: grid;
+  grid-template-areas: 'img-0 text-0'
+}
+
+.img-0 {
+  text-align: left;
+  margin-right: -100;
+}
+
+.img-0 img {
+  text-align: center;
+}
+
+.side-text {
+  text-align: left;
+  margin-bottom: 4rem;
+  margin-right: 0;
+}
+
+.flex-items {
+  display: grid;
+  grid-template-areas:
+    'item item item';
+}
+
+.item h2 {
+  color: black;
+  font-size: 2rem;
+  margin-bottom: 0;
+}
+
+.item p {
+  color: hsl(210, 10%, 33%);
+}
+
+#below-img {
+  margin: 150px 0;
+}
+
+#below-img img {
+  margin-right: 150px;
+}
+
+/* footer section */
+.footer-section {
+  margin-top: 150px;
+  display: grid;
+  grid-template-areas:
+    'set-logo set set set social-links';
+  grid-gap: 20px;
+
+}
+
+.set, a {
+  text-align: left;
+  text-decoration: none;
+    color: hsl(171, 66%, 44%);
+}
+
+/* Media Query */
+@media (max-width: 800px) {
+
+  /* Top header */
+  .history ul {
+    display: block;
+    margin-left: 0;
+    list-style-type: none;
+  }
+
+  .history li {
+    padding-bottom: 40px;
+  }
+
+  .history h1 {
+    color: black;
+    font-size: 3rem;
+  }
+
+  .history p {
+    color: hsl(210, 10%, 33%);
+    padding-bottom: 25px;
+    font-size: 1.5rem;
+  }
+
+  .history a {
+    margin-left: 25px;
+  }
+
+  /* tracker section */
+  .desktop {
+    text-align: center;
+    width: 320px;
+    height: 240px;
+    margin: 0 1.5rem;
+  }
+
+  .img-text {
+    display: grid;
+    grid-template-areas: 'img-0''text-0';
+    margin: 0 1.5rem;
+  }
+
+  .side-text {
+    text-align: center;
+    margin-bottom: 2rem;
+    grid
+  }
+
+  /*Second Middle Section  */
+  .tracker {
+    margin: 0 1rem;
+  }
+
+  .img-0 {
+    text-align: center;
+    width: 320px;
+    height: 240px;
+    margin: 0 1.5rem;
+  }
+
+  .flex-items {
+    display: grid;
+    grid-template-areas:
+      'item''item''item';
+    margin: 0 1.5rem;
+  }
+  .item{
+    margin-bottom: 20px;
+  }
+  /* Below Image section */
+  #below-img{
+    display: grid;
+    grid-template-areas: 'img' 'img' 'img' 'img' 'img';
+    grid-gap: 50px;
+    margin: 0 7rem;
+  }
+
+  .tracker ul {
+    display: block;
+    list-style-type: none;
+  }
+
+  .tracker li {
+    padding-bottom: 40px;
+  }
+
+  /* footer section */
+  .footer-section {
+    display: grid;
+    grid-template-areas:
+      'set-logo' 'set' 'set' 'set' 'social-links';
+  }
+
+  .set, a {
+    text-align: center;
+    text-decoration: none;
+  }
+  .social-links img{
+    padding-right: 2rem;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  .button {
+    border-top: 1px solid #96d1f8;
+    background: #65a9d7;
+    background: -webkit-gradient(linear, left top, left bottom, from(#3e779d), to(#65a9d7));
+    background: -webkit-linear-gradient(top, #3e779d, #65a9d7);
+    background: -moz-linear-gradient(top, #3e779d, #65a9d7);
+    background: -ms-linear-gradient(top, #3e779d, #65a9d7);
+    background: -o-linear-gradient(top, #3e779d, #65a9d7);
+    padding: 13px 26px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    -webkit-box-shadow: rgba(0, 0, 0, 1) 0 1px 0;
+    -moz-box-shadow: rgba(0, 0, 0, 1) 0 1px 0;
+    box-shadow: rgba(0, 0, 0, 1) 0 1px 0;
+    text-shadow: rgba(0, 0, 0, .4) 0 1px 0;
+    color: white;
+    font-size: 18px;
+    font-family: 'Bai Jamjuree', sans-serif;
+    text-decoration: none;
+    vertical-align: middle;
+  }
+
+  .button:hover {
+    border-top-color: #28597a;
+    background: #28597a;
+    color: #ccc;
+  }
+
+  .button:active {
+    border-top-color: #062940;
+    background: #062940;
+  }
+
+  .attribution {
+    font-size: 11px;
+    text-align: center;
+  }
+
+  .attribution a {
+    color: hsl(228, 45%, 44%);
+  }
